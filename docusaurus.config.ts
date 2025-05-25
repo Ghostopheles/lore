@@ -33,6 +33,7 @@ const config: Config = {
     locales: ['en'],
   },
 
+
   presets: [
     [
       'classic',
@@ -57,6 +58,11 @@ const config: Config = {
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
     // Replace with your project's social card
     image: 'img/eclipseCircle.png',
     navbar: {
@@ -105,6 +111,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['lua', 'python'],
     },
   } satisfies Preset.ThemeConfig,
 };
