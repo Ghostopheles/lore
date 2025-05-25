@@ -1,0 +1,25 @@
+wow:
+  label: World of Warcraft
+  permalink: /wow
+  description: World of Warcraft related content
+
+lua:
+  label: Lua
+  permalink: /lua
+  description: Lua content
+
+bugs:
+  label: Bugs
+  permalink: /bugs
+  description: Content related to bugs in games
+
+toa24:
+  label: Tournament of Ages 2024
+  permalink: /toa24
+  description: Tournament of Ages 2024 content
+
+reverse:
+  label: Reverse Engineering
+  permalink: /reverse
+  description: Reverse Engineering content
+
